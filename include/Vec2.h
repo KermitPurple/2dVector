@@ -7,6 +7,10 @@ private:
 public:
     Vec2();
     Vec2(double, double);
+    void set_x(double);
+    void set_y(double);
+    double get_x();
+    double get_y();
 };
 
 #endif //VEC2_H

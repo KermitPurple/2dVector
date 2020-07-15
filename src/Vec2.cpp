@@ -45,3 +45,7 @@ std::istream& operator>>(std::istream& ins, Vec2& v){
 Vec2 Vec2::operator+(const Vec2 other) const{
     return Vec2(x + other.x, y + other.y);
 }
+
+Vec2 Vec2::operator-(const Vec2 other) const{
+    return Vec2(x - other.x, y - other.y);
+}

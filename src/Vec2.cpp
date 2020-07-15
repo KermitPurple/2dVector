@@ -28,3 +28,8 @@ double Vec2::get_x(){
 double Vec2::get_y(){
     return y;
 }
+
+std::ostream& operator<<(std::ostream& out, Vec2& v){
+    out << "(" << v.get_x() << ", " << v.get_y() << ")";
+    return out;
+}

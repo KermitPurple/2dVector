@@ -23,5 +23,10 @@ int main(){
     cout << v1 << endl;
     v2 -= v1;
     cout << v2 << endl;
+    v1 = Vec2(10, 10);
+    v2 = Vec2(5, 5);
+    cout << v1 << v2 << endl;
+    cout << (v1 * v2) << endl;
+    cout << (v1 / v2) << endl;
 	return 0;
 }

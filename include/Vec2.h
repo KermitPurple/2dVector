@@ -18,6 +18,8 @@ public:
     friend std::istream& operator>>(std::istream& ins, Vec2& v);
     Vec2 operator+(const Vec2 other) const;
     Vec2 operator-(const Vec2 other) const;
+    Vec2 operator*(const Vec2 other) const;
+    Vec2 operator/(const Vec2 other) const;
     Vec2& operator+=(const Vec2 other);
     Vec2& operator-=(const Vec2 other);
 };

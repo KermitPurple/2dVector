@@ -13,6 +13,8 @@ int main(){
     v2.set_xy(1,1);
     cout << v1.get_x() << " " << v1.get_y() << endl;
     cout << v2.get_x() << " " << v2.get_y() << endl;
-    cout << v1 << endl;;
+    cout << v1 << endl;
+    cin >> v1;
+    cout << v1 << endl;
 	return 0;
 }

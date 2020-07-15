@@ -15,6 +15,7 @@ public:
     double get_x();
     double get_y();
     friend std::ostream& operator<<(std::ostream& out, Vec2& v);
+    friend std::istream& operator>>(std::istream& ins, Vec2& v);
 };
 
 #endif //VEC2_H

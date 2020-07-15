@@ -33,3 +33,11 @@ std::ostream& operator<<(std::ostream& out, Vec2& v){
     out << "(" << v.get_x() << ", " << v.get_y() << ")";
     return out;
 }
+
+std::istream& operator>>(std::istream& ins, Vec2& v){
+    std::cout << "Enter x: ";
+    ins >> v.x;
+    std::cout << "Enter y: ";
+    ins >> v.y;
+    return ins;
+}

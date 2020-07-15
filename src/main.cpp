@@ -31,5 +31,9 @@ int main(){
     v1 *= Vec2(2, 2);
     v2 /= Vec2(2, 2);
     cout << v1 << v2 << endl;
+    cout << (Vec2(2, 2) == Vec2(2, 2)) << endl;
+    cout << (Vec2(2, 2) != Vec2(2, 2)) << endl;
+    cout << (Vec2(2, 1) == Vec2(2, 2)) << endl;
+    cout << (Vec2(2, 1) != Vec2(2, 2)) << endl;
 	return 0;
 }

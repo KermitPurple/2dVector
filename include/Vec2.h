@@ -24,6 +24,8 @@ public:
     Vec2& operator-=(const Vec2 other);
     Vec2& operator*=(const Vec2 other);
     Vec2& operator/=(const Vec2 other);
+    bool operator==(const Vec2 other) const;
+    bool operator!=(const Vec2 other) const;
 };
 
 #endif //VEC2_H

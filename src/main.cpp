@@ -28,5 +28,8 @@ int main(){
     cout << v1 << v2 << endl;
     cout << (v1 * v2) << endl;
     cout << (v1 / v2) << endl;
+    v1 *= Vec2(2, 2);
+    v2 /= Vec2(2, 2);
+    cout << v1 << v2 << endl;
 	return 0;
 }

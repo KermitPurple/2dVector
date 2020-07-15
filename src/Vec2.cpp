@@ -67,3 +67,13 @@ Vec2& Vec2::operator-=(const Vec2 other){
     *this = *this - other;
     return *this;
 }
+
+Vec2& Vec2::operator*=(const Vec2 other){
+    *this = *this * other;
+    return *this;
+}
+
+Vec2& Vec2::operator/=(const Vec2 other){
+    *this = *this * other;
+    return * this;
+}

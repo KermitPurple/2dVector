@@ -29,7 +29,7 @@ double Vec2::get_y(){
     return y;
 }
 
-std::ostream& operator<<(std::ostream& out, Vec2& v){
+std::ostream& operator<<(std::ostream& out, Vec2 v){
     out << "(" << v.get_x() << ", " << v.get_y() << ")";
     return out;
 }
@@ -40,4 +40,8 @@ std::istream& operator>>(std::istream& ins, Vec2& v){
     std::cout << "Enter y: ";
     ins >> v.y;
     return ins;
+}
+
+Vec2 Vec2::operator+(const Vec2 other) const{
+    return Vec2(x + other.x, y + other.y);
 }

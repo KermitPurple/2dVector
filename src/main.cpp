@@ -16,5 +16,9 @@ int main(){
     cout << v1 << endl;
     cin >> v1;
     cout << v1 << endl;
+    cout << v2 << endl;
+    Vec2 v3 = (v1 + v2);
+    cout << v3 << endl;
+    cout << (v1 + v2);
 	return 0;
 }

@@ -19,5 +19,9 @@ int main(){
     cout << v2 << endl;
     cout << v1 + v2 << endl;
     cout << v1 - v2 << endl;
+    v1 += v2;
+    cout << v1 << endl;
+    v2 -= v1;
+    cout << v2 << endl;
 	return 0;
 }

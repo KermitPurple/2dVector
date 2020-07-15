@@ -5,8 +5,7 @@ Vec2::Vec2(){
 }
 
 Vec2::Vec2(double xx, double yy){
-    x = xx;
-    y = yy;
+    set_xy(xx, yy);
 }
 
 void Vec2::set_x(double xx){
@@ -14,6 +13,11 @@ void Vec2::set_x(double xx){
 }
 
 void Vec2::set_y(double yy){
+    y = yy;
+}
+
+void Vec2::set_xy(double xx, double yy){
+    x = xx;
     y = yy;
 }
 

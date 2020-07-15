@@ -3,6 +3,7 @@
 
 class Vec2{
 private:
+    double x, y;
 public:
     Vec2();
     Vec2(double, double);
